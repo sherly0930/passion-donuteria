@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Passion Donuteria</title>
+<meta charset="UTF-8">
+
+<a href="#" class="Title Tooltip"></a>
+
+<style>
+body
+{
+ background-color: #ccdcff;
+}
+
+h1
+{
+ margin: 0px;
+ font-size: 70px;
+ font-family: Lucida Handwriting;
+ text-align:center;
+ background-color: #000099;
+ color: white;
+}
+
+h2
+{
+ font-size: 25px;
+ font-family: Georgia;
+}
+
+h3
+{
+ top: 0px;
+ font-size: 20px;
+ font-family: Papyrus;
+ text-align:center;
+ vertical-align:middle;
+}
+
+p
+{
+ font-size: 25px;
+ font-family: Monaco;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<h1> Passion <img src="Logo.gif" alt="Logo" width="300" height="200" style="vertical-align:middle"> Donuteria</h1>
+<h3>Donut Worry | Just Chillax  </h3>
+
+
+<head>
+<link rel="stylesheet" href="Top Navigation Bar.css">
+<style>
+* {box-sizing: border-box;}
+
+</style>
+</head>
+
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#menu">Menu</a>
+  <a href="#location">Location</a>
+  <a href="#merchandise">Merchandise</a>
+  <a href="#about us">About Us</a>
+  <a href="#contact us">Contact Us</a>
+  
+  <form>
+    <select name = "language">
+      <option selected = "selected">English</option>
+      <option>Malay</option>
+    </select>
+  </form>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+    <img src="Shopping Bag.jpg" alt="Shopping Bag" width="60" height="60" style="float:right">
+</div>
+
+
+<!-- Ads Board -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Ads Board.css">
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
+
+<script src="Ads Board.js"></script>
+
+<body>
+
+<br>
+<img class="nature" src="Ads Board (1).jpg" width="100%">
+<img class="nature" src="Ads Board (2).jpg" width="100%">
+<img class="nature" src="Ads Board (3).jpg" width="100%">
+
+<script>
+w3.slideshow(".nature", 1000);
+<br>
+</script>
+
+
+<h2>Self Customize The Combo Set Just They Way You Like It</h2>
+
+
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Transparent Image Text.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="row">
+  <div class="column">
+    <a href="https://i.pinimg.com/originals/cb/5d/07/cb5d071fd355c25be7fe89de6138f3ce.jpg">
+    <img src="Doughnut.jpg" alt="Doughnut" width="300" height="300">
+    </a>
+    <div class="content">
+      <p style="text-align:center">Doughnut</p>
+      
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Button.css">
+<style>
+</style>
+</head>
+
+<body>
+
+<button class="button"><span> Browse </span></button>
+
+    </div>
+  </div>
+
+
+<div class="container">
+<div class="row">
+  <div class="column">
+    <a href="https://www.pinterest.com/pin/796503884081854012/">
+    <img src="Mini Doughnut.png" alt="Mini Doughnut" width="300" height="300">
+    </a>  
+    <div class="content">
+      <p style="text-align:center">Mini Doughnut</p>
+      
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Button.css">
+<style>
+</style>
+</head>
+
+<body>
+
+<button class="button"><span> Browse </span></button>
+
+    </div>
+  </div>
+
+
+<div class="container">
+<div class="row">
+  <div class="column">
+    <a href="https://www.pinterest.com/pin/394839092333936317/">
+    <img src="Beverage.png" alt="Beverage" width="300" height="300">
+    </a>
+    <div class="content">
+      <p style="text-align:center">Beverage</p>
+      
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Button.css">
+<style>
+</style>
+</head>
+
+<body>
+
+<button class="button"><span> Browse </span></button>
+
+    </div>   
+  </div>
+
+
+<hr>
+
+<p class="bottom">Copyright &copy;Passion Donuteria. All Rights Reserved. </p>
+
+</hr>
+
+
+
+</body>
+</html>

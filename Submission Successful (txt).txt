@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+
+body {
+  background-image: url('Purple.jpg');
+  font-size: 37px;
+  font-family: Cursive; 
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding: 135px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+  <p>Submitted Successfully!
+  <br>
+  <br>Thank you for your message and the subscription! You will be get back sooner!</p>
+  
+</body>
+</html>

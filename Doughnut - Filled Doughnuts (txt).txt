@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Doughnut | Passion Donuteria</title>
+<meta charset="UTF-8">
+
+<a href="#" class="Title Tooltip"></a>
+
+<style>
+body
+{
+ background-color: #ccdcff;
+}
+
+h1
+{
+ margin: 0px;
+ font-size: 70px;
+ font-family: Lucida Handwriting;
+ text-align:center;
+ background-color: #000099;
+ color: white;
+}
+
+h3
+{
+ top: 0px;
+ font-size: 20px;
+ font-family: Papyrus;
+ text-align:center;
+ vertical-align:middle;
+}
+
+</style>
+</head>
+
+
+<!--separation line-->
+
+
+<body>
+
+<h1> Passion <img src="Logo.gif" alt="Logo" width="300" height="200" style="vertical-align:middle"> Donuteria</h1>
+<h3>Donut Worry | Just Chillax  </h3>
+
+
+<head>
+<link rel="stylesheet" href="Top Navigation Bar.css">
+<style>
+* {box-sizing: border-box;}
+
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+  <a href="#home" class="active">Home</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Menu
+      <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+      <a href="#doughnut">Doughnut</a>
+      <a href="#mini doughnut">Mini Doughnut</a>
+      <a href="#beverage">Beverage</a>
+	</div>
+  </div>
+  
+  <a href="#location">Location</a>
+  <a href="#merchandise">Merchandise</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">About Us
+      <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+        <a href="#our history">Our History</a>
+	    <a href="#fun facts">Fun Facts</a>
+	    <a href="#faq">FAQ</a>
+	</div>
+  </div>
+		
+  <a href="#Contact Us">Contact Us</a>		
+</div>
+
+</body>
+
+
+<!--separation line-->
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+  <a class="active" href="#Ring Doughnuts">Ring Doughnuts</a>
+  <a href="#Filled Doughnuts">Filled Doughnuts</a>
+  <a href="#Fancy Doughnuts">Fancy Doughnuts</a>
+</div>
+
+
+<div class="content">
+
+  <head>
+  <style>
+  div {
+  padding: 50px 0px 0px 0px;
+  }
+
+  table {
+  font-size: 18px;
+  }
+
+  tr:hover {background-color: #eeccff}
+
+  td {
+  text-align:center;
+  }
+
+  </style>
+  </head>
+
+  <body>
+
+  <table width="97%" border="0" align="center">
+  <tr>
+    <td style=font-weight:bold;><br> <img src="Brunelle.png" alt="Brunelle Doughnut" width="250" height="250" /> </br> Brunelle </td>
+ 
+    <td> style=font-weight:bold;><br> <img src="Latello.png" alt="Latello Doughnut" width="250" height="250" /> </br> Latello </td>
+
+    <td style=font-weight:bold;><br> <img src="Sweet dreams.png" alt="Sweet Dreams Doughnut" width="250" height="250" /> </br> Sweet Dreams </td>
+  </tr>
+
+  <tr>    
+    <td> White Chocolate, Red Velvet Crumbles & Cream Cheese Fresh Cream </td>
+    <td> Hazelnut Chocolate, Coffee Fresh Cream & White Chocolate </td>
+    <td> White Chocolate, Chocolate Fresh Cream, Dark Chocolate & Nutella </td>
+  </tr>
+
+ <tr>
+    <td style=font-weight:bold;><br> <img src="Candy bop.png" alt="Candy Bop Doughnut" width="250" height="250" /> </br> Candy Bop </td>
+ 
+    <td> style=font-weight:bold;><br> <img src="Coconana.png" alt="Coconana Doughnut" width="250" height="250" /> </br> Coconana </td>
+
+    <td style=font-weight:bold;><br> <img src="Coffeemaze.png" alt="Coffeemaze Doughnut" width="250" height="250" /> </br> Coffeemaze </td>
+  </tr>
+
+  <tr>    
+    <td> Dark Chocolate, Strawberry Fresh Cream & Marshmallow </td>
+    <td> Hazelnut Chocolate, White Chocolate Chips, Dark Chocolate Chips & Banana Chocolate Fresh Cream </td>
+    <td> White Chocolate, Coffee Fresh Cream & Caramel </td>
+  </tr>
+
+
+<hr>
+
+<p class="bottom">Copyright &copy;Passion Donuteria. All Rights Reserved. </p>
+
+</hr>
+
+
+</body>
+</html>

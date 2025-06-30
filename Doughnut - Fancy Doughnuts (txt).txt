@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Doughnut | Passion Donuteria</title>
+<meta charset="UTF-8">
+
+<a href="#" class="Title Tooltip"></a>
+
+<style>
+body
+{
+ background-color: #ccdcff;
+}
+
+h1
+{
+ margin: 0px;
+ font-size: 70px;
+ font-family: Lucida Handwriting;
+ text-align:center;
+ background-color: #000099;
+ color: white;
+}
+
+h3
+{
+ top: 0px;
+ font-size: 20px;
+ font-family: Papyrus;
+ text-align:center;
+ vertical-align:middle;
+}
+
+</style>
+</head>
+
+
+<!--separation line-->
+
+
+<body>
+
+<h1> Passion <img src="Logo.gif" alt="Logo" width="300" height="200" style="vertical-align:middle"> Donuteria</h1>
+<h3>Donut Worry | Just Chillax  </h3>
+
+
+<head>
+<link rel="stylesheet" href="Top Navigation Bar.css">
+<style>
+* {box-sizing: border-box;}
+
+</style>
+</head>
+
+<div class="navbar">
+  <a href="#home" class="active">Home</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Menu
+      <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+      <a href="#doughnut">Doughnut</a>
+      <a href="#mini doughnut">Mini Doughnut</a>
+      <a href="#beverage">Beverage</a>
+	</div>
+  </div>
+  
+  <a href="#location">Location</a>
+  <a href="#merchandise">Merchandise</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">About Us
+      <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+        <a href="#our history">Our History</a>
+	    <a href="#fun facts">Fun Facts</a>
+	    <a href="#faq">FAQ</a>
+	</div>
+  </div>
+		
+  <a href="#Contact Us">Contact Us</a>		
+</div>
+
+</body>
+
+
+<!--separation line-->
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+myDiv {
+border: 5px outset;
+background-clor:lightblue;
+text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+  <a class="active" href="#Ring Doughnuts">Ring Doughnuts</a>
+  <a href="#Filled Doughnuts">Filled Doughnuts</a>
+  <a href="#Fancy Doughnuts">Fancy Doughnuts</a>
+</div>
+
+
+<div class="content">
+
+  <head>
+  <style>
+  div {
+  padding: 50px 0px 0px 0px;
+  }
+
+  table {
+  font-size: 18px;
+  }
+
+  tr:hover {background-color: #eeccff}
+
+  td {
+  text-align:center;
+  }
+
+  </style>
+  </head>
+
+  <body>
+
+  <table width="97%" border="0" align="center">
+  <tr>
+    <td style=font-weight:bold;><br> <img src="Gummy drops.png" alt="Gummy Drops Doughnut" width="250" height="250" /> </br> Gummy Drops </td>
+ 
+    <td> style=font-weight:bold;><br> <img src="Color candy.png" alt="Color Candy Doughnut" width="250" height="250" /> </br> Color Candy </td>
+
+    <td style=font-weight:bold;><br> <img src="Chic floss.png" alt="Chic Floss Doughnut" width="210" height="210" /> </br> Chic Floss </td>
+  </tr>
+
+  <tr>    
+    <td> White chocolate frosting and colorful gummy drops </td>
+    <td> White chocolate frosting and M&M's </td>
+    <td> Mayonnaise and chicken floss (with seaweed) </td>
+  </tr> 
+
+
+<hr>
+
+<p class="bottom">Copyright &copy;Passion Donuteria. All Rights Reserved. </p>
+
+</hr>
+
+
+</body>
+</html>

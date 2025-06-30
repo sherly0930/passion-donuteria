@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Stay Connected | Passion Donuteria</title>
+<meta charset="UTF-8">
+
+<a href="#" class="Title Tooltip"></a>
+
+<style>
+body
+{
+ background-color: #ccdcff;
+}
+
+h1
+{
+ margin: 0px;
+ font-size: 70px;
+ font-family: Lucida Handwriting;
+ text-align:center;
+ background-color: #000099;
+ color: white;
+}
+
+h2
+{
+ font-size: 25px;
+ font-family: Georgia;
+}
+
+h3
+{
+ top: 0px;
+ font-size: 20px;
+ font-family: Papyrus;
+ text-align:center;
+ vertical-align:middle;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<h1> Passion <img src="Logo.gif" alt="Logo" width="300" height="200" style="vertical-align:middle"> Donuteria</h1>
+<h3>Donut Worry | Just Chillax  </h3>
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Form.css">
+
+<style>
+
+body {
+  background: #bfff00;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+h1 {
+font-family: Serif;
+text-align: center;
+}
+
+h2 {
+ text-align: center;
+ font-size: 32px;
+}
+
+label {
+  font-size: 19px;
+  font-family: Garamond;
+}
+</style>
+</head>
+
+<body>
+
+<hr></hr>
+
+<br><br><br><br>
+<h2>Let's Be Friends!</h2>
+
+<p style="text-align: center; font-size: 17px;">Open for inquiries! <br>And, subscribe to our newsletter to stay up-to-date with Passion Donuteria news & in-store events! </br></p>
+
+<br><br>
+<div class="container">
+
+    <p style="font-size: 26px; font-family: Courier New; color: #990099; font-weight: bold;">Contact Information</p>
+	 
+	
+	<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+	  <label for="fname">First Name</label>
+	  <input type="text" id="fname" name="fname" required  placeholder="Your first name...">
+      
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" required placeholder="Your last name...">
+
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+      <label for="cnumber">Contact Number</label>
+      <input type="text" id="cnumber" name="cnumber" required placeholder="Your contact number...">
+
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+      <label for="eadd">Email Address</label>
+      <input type="text" id="eadd" name="eadd" required placeholder="Your email address...">
+
+
+      <p style="font-size: 26px; font-family: Courier New; color: #990099; font-weight: bold;">Question or comment</p>
+
+      <label for="topic">Choose a general topic</label>
+      <select id="topic" name="topic">
+        <option value="food">Food</option>
+        <option value="service">Service</option>
+        <option value="experience">In-store experience</option>
+	    <option value="nutritional">Nutritional Information</option>
+        <option value="sponsor">Donation or sponsorship request</option>
+	    <option value="general">General enquiries or other info</option>
+      </select>
+
+      <label for="state">Choose your state</label>
+      <select id="state" name="state">
+        <option value="johor">Johor</option>
+        <option value="kedah">Kedah</option>
+        <option value="kelantan">Kelantan</option>
+	    <option value="kl">Kuala Lumpur</option>
+        <option value="labuan">Labuan</option>
+	    <option value="malacca">Malacca</option>
+        <option value="n9">Negeri Sembilan</option>
+	    <option value="pahang">Pahang</option>
+        <option value="perlis">Perlis</option>
+	    <option value="perak">Perak</option>
+	    <option value="penang">Penang</option>
+	    <option value="sabah">Sabah</option>
+        <option value="sarawak">Sarawak</option>
+	    <option value="terengganu">Terengganu</option>
+	  </select>
+
+      <label for="outlet">Choose your outlet</label>
+      <select id="outlet" name="outlet">
+        <option value="sj">Subang Jaya</option>
+        <option value="pj">Petaling Jaya</option>
+        <option value="ak">Ayer Keroh</option>
+	    <option value="bentong">BHP Bentong</option>
+        <option value="ecm">East Coast Mall</option>
+	    <option value="cheras">Eko Cheras</option>
+        <option value="ioi>IOI City Mall</option>
+	    <option value="shell">JHR Shell Dato Onn</option>
+        <option value="mp">Makhota Parade</option>
+	    <option value="airport">Penang Airport - FA 20</option>
+	    <option value="suria">Suria Sabah</option>
+	    <option value="sabah">Sabah</option>
+         <option value="weld">The Weld</option>
+	    <option value="ulu">Petronas Ulu Bernam</option>
+	  </select>
+	
+	  <label for="message">Drop us your message, feedback or suggestion!</label>
+      <textarea id="message" name="message" placeholder="Write something.." style="height:150px"></textarea>
+
+      <div class="container">
+        <label>
+          <input type="checkbox" checked="checked" name="subscribe">Daily Newsletter
+        </label>
+      </div>
+
+
+<!--Submit Button-->
+
+<br>
+
+      <div class="container">
+	    <button onclick="myFunction()">Submit</button>
+		
+		<script src="Form.js"></script>
+		
+		<p id="demo"></p>
+		<script>   
+        function myFunction() {
+	      var txt;
+          if (confirm("Do you confirm to submit? Kindly ensure all info are accurate."))
+	      {
+            window.location.href = "file:///C:/Users/User/Documents/SEM%203/Web%20Programming/Individual%20assignment/Submission%20Successful.html";
+          }
+		};
+	    </script>
+      </div>
+    </form>
+</div>
+
+
+<br><br><br>
+
+<hr>
+
+<p style="text-align: center;" class="bottom">Copyright &copy;Passion Donuteria. All Rights Reserved. </p>
+
+</hr>
+
+
+</body>
+</html>
